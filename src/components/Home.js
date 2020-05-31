@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 
 function Home(props) {
     return (
-        <div>
-            <Link to="/nasaphoto">Link To NasaPhoto</Link>
+        <div className="home">
+            <Link className="home-link" to="/nasaphoto">Link To NasaPhoto</Link>
         </div>
     )
 }
