@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
+import NavBar from './NavBar'
 
 const API_KEY = process.env.REACT_APP_NASA_API_KEY
 function NasaPhoto(props) {
@@ -18,12 +19,27 @@ function NasaPhoto(props) {
     if (!photoData) return <div />
 
     return (
-        <div>
-            <img src={photoData.url}></img>
-            <h1>{photoData.title}</h1>
-            <p>{photoData.date}</p>
-            <p>{photoData.explanation}</p>
-        </div>
+        <>
+            <NavBar />
+            <div className="nasa-photo">
+
+                {photoData.media_type === 'image' ?
+                    <img src={photoData.url} alt={photoData.title}></img> : (
+                        <iframe
+                            title='space-video'
+                            src={photoData.url}
+                            frameborder="0"
+                            allow="encrypted-media"
+                            allowFullscreen
+                            className="photo"
+                        ></iframe>
+                    )
+                }
+                <h1>{photoData.title}</h1>
+                <p>{photoData.date}</p>
+                <p>{photoData.explanation}</p>
+            </div>
+        </>
     )
 }
 

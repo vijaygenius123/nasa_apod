@@ -10,8 +10,10 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
-      <Route component={Home} exact path="/" />
-      <Route component={NasaPhoto} path="/nasaphoto" />
+      <div className="app">
+        <Route component={Home} exact path="/" />
+        <Route component={NasaPhoto} path="/nasaphoto" />
+      </div>
     </BrowserRouter >
   );
 }
