@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b886614bfd7599c25fa312b401e8cab",
+    "revision": "0aad4212152fc991c10ac93df65fcb96",
     "url": "/nasa_apod/index.html"
   },
   {
-    "revision": "7a949c88a43330082716",
+    "revision": "cd95f4dbf1eb8f7391b2",
     "url": "/nasa_apod/static/css/main.57fa9002.chunk.css"
   },
   {
-    "revision": "633aaa22358b58453f79",
-    "url": "/nasa_apod/static/js/2.2313dd4b.chunk.js"
+    "revision": "2adfba3ff9372cba6d68",
+    "url": "/nasa_apod/static/js/2.1bf1cf56.chunk.js"
   },
   {
     "revision": "4ba1a1c11c57ed15aa68008707a3d6b4",
-    "url": "/nasa_apod/static/js/2.2313dd4b.chunk.js.LICENSE.txt"
+    "url": "/nasa_apod/static/js/2.1bf1cf56.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7a949c88a43330082716",
-    "url": "/nasa_apod/static/js/main.f448160c.chunk.js"
+    "revision": "cd95f4dbf1eb8f7391b2",
+    "url": "/nasa_apod/static/js/main.acab73e6.chunk.js"
   },
   {
     "revision": "61634e0e2b43b5be1825",
